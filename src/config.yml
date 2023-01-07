@@ -1,0 +1,22 @@
+#####################
+#### config.yaml ####
+#####################
+# This file is used to control input variables
+
+default:
+  grid_size: '1km'
+  stores_filename: 'processing_store-coordinates-and-sales-area-by-chain.xlsx'
+  stores_ms_filename: '.confidential_market-share-by-store.xlsx'
+  sales_filename: 'turnover-by-chain-2021.xlsx'
+  alpha_filename: 'modelling_alpha-parameters.xlsx'
+  x_offset: 550 #60 
+  y_offset: 550 #140
+  last_closing_date: '2021-12-31'
+  new_stores_date: '2021-01-01'
+  distance_threshold_km: 100
+  alpha_select: 'alpha_est_avg'
+  remove_other_stores: True
+  evaluate_ms_on_store_level: True
+  use_average_alpha: True
+config_name:
+  config_var: ''
